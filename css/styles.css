@@ -1,0 +1,603 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Regular.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Medium.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Light.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Bold.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Medium.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Light.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Bold.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Regular.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Medium.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Light.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Bold.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../webfonts/ttf-fonts/Gilroy-Regular.woff2") format("woff2"), url("../webfonts/ttf-fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Reset heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Reset list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Reset anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#header {
+  padding-top: 60px;
+  background: url(../Images/showcase-bg.png) center center/cover;
+}
+#header button {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#showcase {
+  padding-top: 200px;
+  margin-bottom: 144px;
+}
+#showcase .content-wrapper {
+  margin-bottom: 77px;
+}
+#showcase .content-wrapper p {
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+#showcase .content-wrapper button {
+  border-radius: 10px;
+  border: 1px solid #db4e77;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+}
+#showcase .content-wrapper a {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+#showcase .showcase1 {
+  border-radius: 19.89px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--border, linear-gradient(138deg, rgba(124, 31, 58, 0.5) 0%, rgba(136, 27, 59, 0.5) 0.01%, rgba(136, 27, 59, 0.23) 100%));
+  backdrop-filter: blur(12.5px);
+  margin-bottom: 33px;
+}
+#showcase .showcase3 {
+  position: absolute;
+  left: 40px;
+  bottom: 71px;
+}
+
+#a .inner-container {
+  background-color: #101010;
+  border: 1px solid #383838;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+#a .content-wrapper h2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy, sans-serif;
+  font-size: clamp(1.5rem, 5vw, 2.1875rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#a .content-wrapper p {
+  color: #fff;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy, sans-serif;
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+}
+#a .content-wrapper p .applicazio {
+  color: #fff;
+  font-family: Gilroy, sans-serif;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: inherit;
+}
+@media screen and (max-width: 768px) {
+  #a .inner-container {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #a .inner-container {
+    padding: 10px;
+  }
+}
+#a .gradient-wrapper .gradient1 {
+  width: 322px;
+  height: 333px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #e00042;
+  filter: blur(210px);
+  top: -90% !important;
+}
+#a .gradient-wrapper .gradient2 {
+  width: 202px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ff004b;
+  filter: blur(300px);
+}
+#a .gradient-wrapper .gradient3 {
+  width: 127px;
+  height: 127px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #e00042;
+  filter: blur(175px);
+}
+
+#b .section-header h3 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 768px) {
+  #b .section-header h3 {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #b .section-header h3 {
+    font-size: 1.5rem;
+  }
+}
+#b .section-header p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 66px;
+}
+@media screen and (max-width: 768px) {
+  #b .section-header p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #b .section-header p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+}
+#b .card {
+  border-radius: 19.89px;
+  border: 1px solid #383838;
+  background: #101010;
+  padding: 20px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  #b .card {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #b .card {
+    padding: 10px;
+  }
+}
+#b .card .card-img-top {
+  width: 49px;
+  margin-bottom: 22px;
+}
+@media screen and (max-width: 768px) {
+  #b .card .card-img-top {
+    width: 40px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #b .card .card-img-top {
+    width: 30px;
+    margin-bottom: 10px;
+  }
+}
+#b .card h4 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  #b .card h4 {
+    font-size: 1rem;
+  }
+}
+#b .card p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 480px) {
+  #b .card p {
+    font-size: 1rem;
+  }
+}
+#b .card .right-arrow {
+  width: 24px;
+  height: 12px;
+  flex-shrink: 0;
+  background: url(../Icons/right-arrow.svg) center center/cover;
+  position: absolute;
+  right: -25px;
+  top: 50%;
+}
+@media screen and (max-width: 768px) {
+  #b .card .right-arrow {
+    right: 50%;
+    transform: translate(50%, 50%) rotate(90deg);
+    top: auto;
+    bottom: -11px;
+  }
+}
+#b .middle-card {
+  border-radius: 19.89px;
+  border: 1px solid #ac6e84;
+  background: var(--bg, linear-gradient(138deg, rgba(84, 1, 25, 0.8) 0%, rgba(136, 27, 59, 0.26) 100%));
+}
+#b .gradient-wrapper .gradient1 {
+  width: 127px;
+  height: 127px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ff004b;
+  filter: blur(175px);
+  position: absolute;
+  right: 5%;
+  top: 0;
+}
+#b .gradient-wrapper .gradient2 {
+  width: 127px;
+  height: 127px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ff004b;
+  filter: blur(175px);
+  position: absolute;
+  left: 25%;
+  top: 40%;
+}
+#b .gradient-wrapper .gradient3 {
+  width: 222px;
+  height: 208px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ffb800;
+  filter: blur(300px);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.section-header h3 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+@media screen and (max-width: 768px) {
+  .section-header h3 {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-header h3 {
+    font-size: 1.5rem;
+  }
+}
+.section-header p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 73px;
+}
+@media screen and (max-width: 768px) {
+  .section-header p {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .section-header p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+}
+
+#c .reviews .trust-logo-text {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+#c .reviews .trust-logo-text .recen {
+  font-weight: 500;
+}
+#c .reviews .content-wrapper {
+  border-radius: 19.89px;
+  border: 1px solid #383838;
+  background: #101010;
+  width: 100%;
+}
+#c .reviews .content-wrapper .text-container h5 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#c .reviews .content-wrapper .text-container p {
+  color: #fff;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#c .gradient-wrapper .gradient1 {
+  width: 202px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ff004b;
+  filter: blur(300px);
+  position: absolute;
+  right: 20%;
+  top: 50%;
+}
+#c .gradient-wrapper .gradient2 {
+  width: 202px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ff004b;
+  filter: blur(300px);
+  position: absolute;
+  right: 10%;
+  top: 0%;
+}
+#c .gradient-wrapper .gradient3 {
+  width: 202px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ff004b;
+  filter: blur(300px);
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+
+#d .wrapper {
+  border-radius: 15px;
+  border: 1px solid #ac6e84;
+  background: var(--bg, linear-gradient(138deg, rgba(84, 1, 25, 0.8) 0%, rgba(136, 27, 59, 0.26) 100%));
+  backdrop-filter: blur(50px);
+}
+#d .wrapper p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+#d .wrapper p .scar {
+  font-weight: 400;
+}
+#d .gradient1 {
+  width: 202px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ff004b;
+  filter: blur(300px);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#e .content-wrapper {
+  border-radius: 19.89px;
+  border: 1px solid #383838;
+  background: #101010;
+}
+#e .content-wrapper h5 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#e .content-wrapper p {
+  color: #fff;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Gilroy;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#e .gradient1 {
+  width: 343px;
+  height: 321px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #ffb800;
+  filter: blur(450px);
+  position: absolute;
+  bottom: -22%;
+  left: 5%;
+}
+
+#footer .links {
+  color: #414141;
+  font-family: Gilroy;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 1.2rem */
+}

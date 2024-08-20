@@ -1,0 +1,23 @@
+<svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_2019_7)">
+<rect width="49" height="49" rx="15" fill="url(#paint0_linear_2019_7)" fill-opacity="0.8"/>
+<rect x="0.5" y="0.5" width="48" height="48" rx="14.5" stroke="url(#paint1_linear_2019_7)"/>
+</g>
+<path d="M22.5469 12H26.4531C27.1025 12 27.625 12.5225 27.625 13.1719V21.375H31.9072C32.7764 21.375 33.2109 22.4248 32.5957 23.04L25.1689 30.4717C24.8027 30.8379 24.2021 30.8379 23.8359 30.4717L16.3994 23.04C15.7842 22.4248 16.2188 21.375 17.0879 21.375H21.375V13.1719C21.375 12.5225 21.8975 12 22.5469 12ZM37 30.3594V35.8281C37 36.4775 36.4775 37 35.8281 37H13.1719C12.5225 37 12 36.4775 12 35.8281V30.3594C12 29.71 12.5225 29.1875 13.1719 29.1875H20.335L22.7275 31.5801C23.709 32.5615 25.291 32.5615 26.2725 31.5801L28.665 29.1875H35.8281C36.4775 29.1875 37 29.71 37 30.3594ZM30.9453 34.6562C30.9453 34.1191 30.5059 33.6797 29.9688 33.6797C29.4316 33.6797 28.9922 34.1191 28.9922 34.6562C28.9922 35.1934 29.4316 35.6328 29.9688 35.6328C30.5059 35.6328 30.9453 35.1934 30.9453 34.6562ZM34.0703 34.6562C34.0703 34.1191 33.6309 33.6797 33.0938 33.6797C32.5566 33.6797 32.1172 34.1191 32.1172 34.6562C32.1172 35.1934 32.5566 35.6328 33.0938 35.6328C33.6309 35.6328 34.0703 35.1934 34.0703 34.6562Z" fill="#976976"/>
+<defs>
+<filter id="filter0_b_2019_7" x="-100" y="-100" width="249" height="249" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="50"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2019_7"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2019_7" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_2019_7" x1="0" y1="0" x2="46.6895" y2="51.1106" gradientUnits="userSpaceOnUse">
+<stop stop-color="#540119"/>
+<stop offset="1" stop-color="#881B3B" stop-opacity="0.33"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2019_7" x1="52.8626" y1="43.9234" x2="0.943522" y2="0.59884" gradientUnits="userSpaceOnUse">
+<stop stop-color="#AC6E84"/>
+<stop offset="1" stop-color="#954E63"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,25 @@
+// Bootstrap Variables
+$primary: #881B3B;
+$body-bg: #000000;
+$body-color: #ffffff;
+
+
+
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25, // 4px
+  2: $spacer * 0.5,  // 8px
+  3: $spacer,        // 16px
+  4: $spacer * 1.5,  // 24px
+  5: $spacer * 3,    // 48px
+  6: $spacer * 6,    // 96px
+  7: $spacer * 8,    // 128px
+  8: $spacer * 12,   // 192px
+) !default;
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Heading margin bottom
+$headings-margin-bottom: $spacer * 0.75 !default;

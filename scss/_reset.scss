@@ -1,0 +1,37 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Reset heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Reset list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Reset anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Reset image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
